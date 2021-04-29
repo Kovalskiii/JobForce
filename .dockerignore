@@ -1,0 +1,8 @@
+node_modules/
+data/
+LICENSE
+.gitignore
+.git/
+example.env
+.travis.yml
+docker/

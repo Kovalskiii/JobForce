@@ -1,0 +1,58 @@
+{
+  "name": "jobforce-backend",
+  "version": "1.0.0",
+  "description": "JobForce server",
+  "main": "index.js",
+  "type": "module",
+  "author": "Kovalskii && Onescu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vlam-dev/daa-api.git"
+  },
+  "engines": {
+    "node": "14.16.0",
+    "npm": "7.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "local": "NODE_ENV=local nodemon --inspect -r dotenv/config -r @babel/register src/index",
+    "prod": "NODE_ENV=prod nodemon --inspect -r dotenv/config -r @babel/register src/index"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.12.0",
+    "@sendgrid/mail": "^7.4.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai-datetime": "^1.8.0",
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/register": "^7.13.8",
+    "aws-sdk": "^2.884.0",
+    "chai": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.21.0",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/vlam-dev/daa-api/issues"
+  },
+  "homepage": "https://gitlab.com/vlam-dev/daa-api#readme",
+  "directories": {
+    "doc": "docs"
+  }
+}

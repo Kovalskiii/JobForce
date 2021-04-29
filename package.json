@@ -4,7 +4,7 @@
   "description": "JobForce server",
   "main": "index.js",
   "type": "module",
-  "author": "Kovalskii && Onescu",
+  "author": "Kovalskii",
   "license": "ISC",
   "repository": {
     "type": "git",

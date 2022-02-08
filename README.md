@@ -28,4 +28,5 @@ d)to delete all images use command: docker rmi $(docker images -q)
 
 ![image](https://user-images.githubusercontent.com/49062638/152964471-ea7ebd40-c964-411b-9a16-bb1cb57318b2.png)
 
+![image](https://user-images.githubusercontent.com/49062638/152964614-314a2c10-4529-4e8c-b105-78bc5dd5f511.png)
 
